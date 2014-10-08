@@ -6,3 +6,10 @@ ENV NODE_ENV production
 
 ADD install.sh /
 RUN bash -xe /install.sh
+
+# define mountable directories
+VOLUME ["/var/www"]
+
+# define working directory.
+WORKDIR /var/www
+
