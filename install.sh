@@ -13,7 +13,7 @@ apt-get update
 apt-get upgrade -qqy
 
 # Install dependencies
-apt-get -qq -y install build-essential python gcc g++ make curl bzip2 git
+apt-get -qq -y install build-essential python gcc g++ make curl bzip2 git openssh-client
 
 # Install node.js
 curl --silent http://nodejs.org/dist/${NODE_VERSION}/node-${NODE_VERSION}-linux-x64.tar.gz | \
