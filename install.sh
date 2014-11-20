@@ -20,7 +20,7 @@ cat > /root/.ssh/known_hosts << EOF
 EOF
 
 
-apt-get update
+apt-get update -qq
 apt-get upgrade -qqy
 
 # Install dependencies
