@@ -13,7 +13,7 @@ EOF
 # [anga.funkfeuer.at]:2022,[78.41.115.130]:2022 ssh-rsa AAAAB...fgTHaojQ==
 mkdir -p /root/.ssh/
 ssh-keyscan -t rsa,dsa github.com >> /root/.ssh/known_hosts
-+ssh-keyscan -t rsa,dsa bitbucket.com >> /root/.ssh/known_hosts
+ssh-keyscan -t rsa,dsa bitbucket.com >> /root/.ssh/known_hosts
 
 
 
